@@ -14,8 +14,8 @@ function Page() {
     <div className='min-h-screen bg-[#F78733] py-12 pt-[5rem]'>
         <h1 className=' text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white'>All Services({animalData.services.length})</h1>
         <div className='flex flex-wrap justify-center gap-[29px]  bg-[#EBE3CC]'>
-            {animalData.services.map((Animal)=>(
-               <CardContainer className='inter-var m-4'>
+            {animalData.services.map((Animal, id)=>(
+               <CardContainer key={id} className='inter-var m-4'>
                 <CardBody className='bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border '>
                     <CardItem  translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white">
