@@ -10,7 +10,7 @@ import Loader from '@/components/Loader';
 
 
 
-function page() {
+function Page() {
 
   const [loading, setLoading] = useState (true);
 
@@ -154,7 +154,7 @@ function page() {
 }
 
 
-export default page
+export default Page
 
 
 
