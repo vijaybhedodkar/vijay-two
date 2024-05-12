@@ -6,7 +6,7 @@ import animalData from '@/data/animal_care.json';
 
 
 
-function Page() {
+function page() {
  
 
   return (
@@ -71,4 +71,4 @@ function Page() {
 
 
 
-          export default Page
+          export default page

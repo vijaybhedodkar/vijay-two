@@ -30,7 +30,7 @@ export default function Home() {
   return (
    <div>
     {loading ? <Loader/>: (
-    <main className="min-h-screen bg-[#4AB] antialiased bg-grid-white/[0.02] w-fit lg:w-auto">
+    <main className="min-h-screen bg-[#4AB] antialiased bg-grid-white/[0.02]  lg:w-auto">
   
       <Header/>
       <Cards/>

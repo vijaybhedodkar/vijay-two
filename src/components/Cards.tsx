@@ -14,7 +14,7 @@ interface Animal{
 function Cards() {
     const cards = animalData.services.filter((animal:Animal)=>animal.isFeatured)
   return (
-    <div className="py-12 bg-[#0000003f]">
+    <div className="py-12 bg-[#0000003f] h-[36rem] overflow-scroll lg:h-[100%] lg:overflow-hidden">
         
     <div className="mt-10">
      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
