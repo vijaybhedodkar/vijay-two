@@ -1,16 +1,16 @@
 "use client"
-
+import { useEffect, useState } from 'react';
 import React from 'react'
 
 import Link from 'next/link';
 import Loader from '@/components/Loader';
-import { useEffect, useState } from 'react';
 
 
 
 
 
-function page() {
+
+function Page() {
 
   const [loading, setLoading] = useState (true);
 
@@ -18,7 +18,7 @@ function page() {
     // Simulating data fetching delay
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -65,7 +65,7 @@ function page() {
   </div>
   <Link href={"https://petfoodsindia.com/"}>
   <div className='lg:w-[200px] lg:h-[220px] w-[400px] h-[420px] bg-[#FFFFFF] rounded-[23px] hover:scale-[110%] transition-all transition-0.1s'>
-    <p className='flex justify-center items-center lg:text-[24px] text-[34px] font-extrabold text-black my-[12px]'>Pet Food's</p>
+    <p className='flex justify-center items-center lg:text-[24px] text-[34px] font-extrabold text-black my-[12px]'>Pet Foods</p>
     <img src='/somthing/petfood.png' className='lg:w-[100%] w-[100%] m-auto'></img>
   </div>
   </Link>
@@ -99,7 +99,7 @@ function page() {
 <Link href={"https://supertails.com/pages/consult-a-vet#:~:text=Supertails%20online%20vet%20consultation%20offers,comfort%20of%20your%20own%20home."}><button className='w-[174px] h-[44px] bg-[#473DB9] text-[17px] flex justify-center items-center rounded-[50px] m-auto'>Treatment</button></Link>
 </div>
 <div className='lg:w-[200px] lg:h-[278px] w-[400px] h-[470px] bg-[#FFFFFF] rounded-[23px] hover:scale-[110%] transition-all transition-0.1s'>
-<h1 className='text-black lg:text-[24px] text-[34px] font-extrabold text-center mt-[10px]'> Pet's toys</h1>
+<h1 className='text-black lg:text-[24px] text-[34px] font-extrabold text-center mt-[10px]'> Pets toys</h1>
 <img src='/somthing/birdoffer.png ' className='m-auto p-[43px] w-[81%]' ></img>
 <Link href={"https://supertails.com/pages/toys"}><button className='w-[174px] h-[44px] bg-[#473DB9] text-[17px] flex justify-center items-center rounded-[50px] m-auto'>Shop Now</button></Link>
 </div>
@@ -154,7 +154,7 @@ function page() {
 }
 
 
-export default page
+export default Page
 
 
 

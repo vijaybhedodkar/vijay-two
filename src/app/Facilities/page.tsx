@@ -1,33 +1,16 @@
-"use client"
-import React from 'react'
-import Image from 'next/image'
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 import Link from 'next/link';
-import animalData from "@/data/animal_care.json";
-import Footer from '@/components/Footer';
-
-import Loader from '@/components/Loader';
-import { useEffect, useState } from 'react';
+import animalData from '@/data/animal_care.json';
 
 
 
-function page() {
-
-  const [loading, setLoading] = useState (true);
-
-  useEffect(() => {
-    // Simulating data fetching delay
-    const timeout = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
+function Page() {
+ 
 
   return (
-    <div>
-      {loading ? <Loader/>: (
+   
     <div className='min-h-screen bg-[#F78733] py-12 pt-[5rem]'>
         <h1 className=' text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white'>All Services({animalData.services.length})</h1>
         <div className='flex flex-wrap justify-center gap-[29px]  bg-[#EBE3CC]'>
@@ -80,11 +63,12 @@ function page() {
         </div>
   
     </div>
-      )}
-      </div>
+     
 
   )
 
 }
 
-export default page
+
+
+          export default Page
