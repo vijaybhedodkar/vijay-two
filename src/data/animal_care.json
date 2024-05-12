@@ -1,0 +1,65 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "Adoption",
+        "slug":"adopt animals",
+        "description": "Find loving homes for animals in need of adoption. We match animals with caring individuals or families to ensure a happy and fulfilling life.",
+        "image_url": "/somthing/Adopt.png",
+        "isFeatured": true
+      },
+      {
+        "id": 2,
+        "name": "Foster Care",
+        "slug":"provide them Foster care",
+        "description": "Provide temporary foster homes for animals awaiting adoption. Foster families play a crucial role in socializing and caring for animals.",
+        "image_url": "/somthing/foster.png",
+        "isFeatured": true
+      },
+      {
+        "id": 3,
+        "name": "Medical Care",
+        "slug":"Give them medical care",
+        "description": "Offer medical treatment and veterinary care for injured, sick, or neglected animals. Our team ensures animals receive necessary vaccinations, surgeries, and ongoing medical support.",
+        "image_url": "/somthing/Medical care.png",
+        "isFeatured": true
+      },
+      {
+        "id": 4,
+        "name": "Rescue Operations",
+        "slug":"rescue the animals from emergency situation and keep the record of them",
+        "description": "Respond to emergency situations and rescue animals from dangerous or abusive conditions. Our trained rescue team works tirelessly to save animals in distress.",
+        "image_url": "/somthing/animal rescue.png",
+        "isFeatured": true
+      },
+      {
+        "id": 5,
+        "name": "Education and Outreach",
+        "slug":"educate the community about animals and there habits",
+        "description": "Educate the community about responsible pet ownership, animal welfare, and the importance of spaying/neutering. We conduct outreach programs in schools, communities, and online platforms.",
+        "image_url": "/somthing/volunteer.png",
+        "isFeatured": true
+      },
+      {
+        "id": 6,
+        "name": "Volunteer Programs",
+        "slug":"oragnize the programs for spreading awarness",
+        "description": "Engage volunteers in various activities including animal care, fundraising, event organization, and administrative tasks. Volunteers are essential to our mission and make a significant impact.",
+        "image_url": "/somthing/volunteer.png",
+        "isFeatured": true
+      }
+      
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
