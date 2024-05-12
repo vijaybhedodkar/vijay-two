@@ -14,7 +14,7 @@ function Navbar() {
             <div className=' sm:w-50 lg:relative relative bottom-[4rem] lg:top-[-4rem] lg:left-[-10rem] lg:flex lg:items-center lg:justify-center'>
                 <input type='text' placeholder='search' className="h-8 w-80 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none"></input>
             </div>
-            <div className='line relative bottom-[3rem] text-black  lg:absolute lg:left-[37rem] lg:top-[2rem]'>
+            <div className='line relative left-[-1rem] bottom-[3rem] text-black  lg:absolute lg:left-[37rem] lg:top-[2rem]'>
                 <ul className='text-center flex gap-14 sm:gap-6 font-extrabold  text-sm '>
                    <Link href={"/"} className='hover:underline'>Home</Link> 
                   
